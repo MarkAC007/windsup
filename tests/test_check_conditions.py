@@ -1,6 +1,7 @@
 import pytest
 from check_conditions import check_conditions
 
+
 @pytest.mark.parametrize('weather_data, tide_data, wind_direction, expected', [
     ({
         'weather': [{'main': 'Rain'}],
