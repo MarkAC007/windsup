@@ -1,11 +1,14 @@
 # app.py
 import os
+import sys
+import subprocess
 from dotenv import load_dotenv
 from get_tide import get_tide_data, display_tide_data
 from get_weather import get_weather_data, display_weather_data
 
 # Load environment variables from .env file
 load_dotenv()
+
 
 def main():
     try:
